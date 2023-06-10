@@ -1,0 +1,978 @@
+[
+	{
+		"id": 0,
+		"title": "Book1",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem ipsum"
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt.Nulla eu quam sed nulla iaculis tincidunt.Nulla eu quam sed nulla iaculis tincidunt.Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					},
+					{
+						"id": 8,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					},
+					{
+						"id": 9,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Korem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 1,
+		"title": "Book2",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 2,
+		"title": "Book3",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 3,
+		"title": "Book4",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 4,
+		"title": "Book5",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 5,
+		"title": "Book6",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 6,
+		"title": "Book7",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	},
+	{
+		"id": 7,
+		"title": "Book8",
+		"language": "Kannada",
+		"adhyayas": [
+			{
+				"id": 0,
+				"title": "Adhyaya 1",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 1,
+				"title": "Adhyaya 2",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			},
+			{
+				"id": 2,
+				"title": "Adhyaya 3",
+				"verses": [
+					{
+						"id": 0,
+						"verse": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+					},
+					{
+						"id": 1,
+						"verse": "Nulla eu quam sed nulla iaculis tincidunt."
+					},
+					{
+						"id": 2,
+						"verse": "Fusce vulputate lorem sit amet neque dignissim ultrices."
+					},
+					{
+						"id": 3,
+						"verse": "Aenean non vestibulum sem, sit amet pellentesque massa."
+					},
+					{
+						"id": 4,
+						"verse": "Praesent ac justo fringilla, sodales ipsum sed, lacinia nisl."
+					},
+					{
+						"id": 5,
+						"verse": "Sed finibus nulla in volutpat dictum."
+					},
+					{
+						"id": 6,
+						"verse": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae."
+					},
+					{
+						"id": 7,
+						"verse": "Etiam vitae lacus eget risus tempus eleifend."
+					}
+				]
+			}
+		]
+	}
+]
