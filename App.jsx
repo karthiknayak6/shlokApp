@@ -21,7 +21,7 @@ const App = () => {
               name="Home"
               component={HomeScreen}
               options={{
-                headerStyle: {backgroundColor: 'orange'},
+                headerStyle: {backgroundColor: '#ff7038'},
                 headerShadowVisible: false,
                 headerTitle: 'Shlok',
               }}
@@ -29,12 +29,12 @@ const App = () => {
             <Stack.Screen
               name="Adhyayas"
               component={AdhyayaList}
-              options={{headerStyle: {backgroundColor: 'orange'}}}
+              options={{headerStyle: {backgroundColor: '#ff7038'}}}
             />
             <Stack.Screen
               name="Shlokas"
               component={Shlokas}
-              options={{headerStyle: {backgroundColor: 'orange'}}}
+              options={{headerStyle: {backgroundColor: '#ff7038'}}}
             />
           </Stack.Navigator>
         </SafeAreaView>

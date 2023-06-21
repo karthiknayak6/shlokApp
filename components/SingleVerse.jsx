@@ -1,18 +1,14 @@
 import React, {useEffect} from 'react';
 import styles from '../styles/basic';
 import Tts from 'react-native-tts';
-
-import {
-  Text,
-  View,
-  StyleSheet,
-  TouchableOpacity,
-  Pressable,
-} from 'react-native';
+import ViewMeaning from './ViewMeaning';
+import {Text, View, Pressable} from 'react-native';
 import {Card, Button} from '@rneui/themed';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
+  const [showMeaning, setShowMeaning] = React.useState(false);
+
   const handlePlayClick = () => {
     if (isPlaying) {
       console.log(isPlaying, 'Isplaying');
@@ -22,14 +18,21 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
       return;
     }
     onPlayClick(verse.id);
-    Tts.speak(
-      'എല്ലാവർക്കും നമസ്കാരം, ഇന്ന് സുഖമാണോ? നിങ്ങൾ നലയും ആരോഗ്യവും ആയിരിക്കട്ടെ',
-    ); // Speak Malayalam text
+    Tts.speak(verse.meaning, {
+      onEnd: () => {
+        onPlayClick(null); // Call onPlayClick(null) after TTS audio completion
+      },
+    });
+
+    // Speak Malayalam text
+  };
+  const handleViewMeaningClick = () => {
+    setShowMeaning(!showMeaning);
   };
 
   useEffect(() => {
     Tts.getInitStatus().then(() => {
-      Tts.setDefaultLanguage('ml-IN');
+      Tts.setDefaultLanguage('kn-IN');
       const malayalamVoice = {
         id: 'ml-in-x-mlf-local',
         language: 'ml-IN',
@@ -40,9 +43,9 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
         quality: 400,
       };
 
-      /*if (malayalamVoice.notInstalled) {
-        Tts.requestInstallData(); // Install the voice data
-      }*/
+      // if (malayalamVoice.notInstalled) {
+      //   Tts.requestInstallData(); // Install the voice data
+      // }
 
       // Check and handle platform-specific TTS settings
       if (Platform.OS === 'android') {
@@ -54,7 +57,8 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
   }, []);
 
   const handlePauseClick = () => {
-    Tts.pause();
+    Tts.stop();
+    onPlayClick(null);
   };
 
   return (
@@ -71,29 +75,23 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
                 <Icon
                   name="pause-circle"
                   size={30}
-                  color="#ff9603"
+                  color="#ff7038"
                   onPress={handlePauseClick}
                 />
               ) : (
                 <Icon
                   name="play-circle"
                   size={30}
-                  color="#ff9603"
+                  color="#ff7038"
                   onPress={handlePlayClick}
                 />
               )}
             </Pressable>
           </View>
           <Button
-            title="View meaning"
-            buttonStyle={{
-              backgroundColor: 'orange',
-              borderWidth: 1,
-              borderColor: 'white',
-              borderRadius: 10,
-              marginBottom: 0,
-              paddingVertical: 4,
-            }}
+            title={showMeaning ? 'Hide' : 'View meaning'}
+            onPress={handleViewMeaningClick}
+            buttonStyle={styles.viewMeaningButton}
             containerStyle={{
               width: 115,
               marginHorizontal: 0,
@@ -101,6 +99,7 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
             }}
             titleStyle={{fontWeight: 'bold', fontSize: 13}}
           />
+          {showMeaning ? <ViewMeaning verse={verse} /> : null}
         </Card>
       </Pressable>
     </View>
