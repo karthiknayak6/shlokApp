@@ -1,8 +1,9 @@
 import React, {useEffect} from 'react';
+import {Linking} from 'react-native';
 import styles from '../styles/basic';
 import Tts from 'react-native-tts';
 import ViewMeaning from './ViewMeaning';
-import {Text, View, Pressable} from 'react-native';
+import {Text, View, Pressable, Platform} from 'react-native';
 import {Card, Button} from '@rneui/themed';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
@@ -13,19 +14,21 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
     if (isPlaying) {
       console.log(isPlaying, 'Isplaying');
       Tts.stop();
-      Tts.voices().then(voices => console.log(voices));
       onPlayClick(verse.id);
       return;
     }
     onPlayClick(verse.id);
-    Tts.speak(verse.meaning, {
-      onEnd: () => {
-        onPlayClick(null); // Call onPlayClick(null) after TTS audio completion
-      },
-    });
-
-    // Speak Malayalam text
+    try {
+      Tts.speak(verse.meaning, {
+        onEnd: () => {
+          onPlayClick(null); // Call onPlayClick(null) after TTS audio completion
+        },
+      });
+    } catch (e) {
+      Tts.requestInstallData();
+    }
   };
+
   const handleViewMeaningClick = () => {
     setShowMeaning(!showMeaning);
   };
@@ -33,25 +36,29 @@ const SingleVerse = ({verse, verses, isPlaying, onPlayClick}) => {
   useEffect(() => {
     Tts.getInitStatus().then(() => {
       Tts.setDefaultLanguage('kn-IN');
-      const malayalamVoice = {
-        id: 'ml-in-x-mlf-local',
-        language: 'ml-IN',
+      const kannadaVoice = {
+        id: 'kn-in-x-knf-local',
+        language: 'kn-IN',
         latency: 200,
-        name: 'ml-in-x-mlf-local',
+        name: 'kn-in-x-knf-local',
         networkConnectionRequired: false,
         notInstalled: true,
         quality: 400,
       };
 
-      // if (malayalamVoice.notInstalled) {
-      //   Tts.requestInstallData(); // Install the voice data
-      // }
+      if (!kannadaVoice.notInstalled) {
+        Tts.requestInstallData(); // Install the voice data
+      }
 
-      // Check and handle platform-specific TTS settings
+      if (kannadaVoice.notInstalled) {
+        console.log(
+          'NOT INSTALLED NOT INSTALLED NOT INSTALLED NOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLED NOT INSTALLED NOT INSTALLED NOT INSTALLEDNOT INSTALLED NOT INSTALLEDNOT INSTALLED NOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLEDNOT INSTALLED NOT INSTALLED NOT INSTALLED NOT INSTALLED NOT INSTALLED NOT INSTALLED',
+        );
+      }
+
       if (Platform.OS === 'android') {
-        // Tts.setDefaultLanguage('en-US'); // Set the default language (optional)
-        Tts.setDefaultRate(0.5); // Set the default speech rate (optional)
-        Tts.setDefaultPitch(1.0); // Set the default pitch level (optional)
+        Tts.setDefaultRate(0.5);
+        Tts.setDefaultPitch(1.0);
       }
     });
   }, []);
